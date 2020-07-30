@@ -1,0 +1,14 @@
+.custom-btn {
+	background: none;
+	border: 1px solid black;
+	padding: 12px 10px;
+	width: 60%;
+	border-radius: 10px;
+	font-size: 12px;
+	text-transform: capitalize;
+	cursor: pointer;
+
+	&:hover {
+		color: white;
+	}
+}

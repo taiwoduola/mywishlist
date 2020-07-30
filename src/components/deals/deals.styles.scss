@@ -1,0 +1,11 @@
+.deal-collections {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(6, 1fr);
+	grid-gap: 70px 20px;
+	margin-bottom: 100px;
+}
+
+.deal-header {
+	text-transform: capitalize;
+}
