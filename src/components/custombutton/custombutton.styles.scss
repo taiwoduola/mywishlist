@@ -11,4 +11,48 @@
 	&:hover {
 		color: white;
 	}
+
+	&.catergory-btn {
+		font-size: 14px;
+		width: 110px;
+		border: 1px solid #dde0e2;
+		border-radius: 10px;
+		text-align: center;
+		display: flex;
+		justify-content: space-between;
+		text-align: center;
+		height: 35px;
+		width: 110px;
+		align-items: center;
+
+		.cat-btn {
+			padding-left: 5px;
+		}
+
+		&:hover {
+			color: black;
+			border: 1px solid black;
+		}
+	}
+
+	&.signin-btn {
+		font-size: 14px;
+		border: 1px solid #dde0e2;
+		border-radius: 10px;
+		text-align: center;
+		display: flex;
+		justify-content: space-between;
+		height: 35px;
+		width: 80px;
+		align-items: center;
+
+		.sign-icon {
+			padding-left: 5px;
+		}
+
+		&:hover {
+			color: black;
+			border: 1px solid black;
+		}
+	}
 }
