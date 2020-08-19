@@ -55,4 +55,47 @@
 			border: 1px solid black;
 		}
 	}
+
+	&.signin-button {
+		width: 100%;
+		background-color: #53a318;
+		color: white;
+		border: none;
+		font-size: 1.1rem;
+		padding: 12px 0;
+		border-radius: 5px;
+		margin-bottom: 20px;
+
+		&:hover {
+			background-color: green;
+		}
+	}
+
+	&.face-btn {
+		width: 48%;
+		background-color: #3b5998;
+		color: white;
+		border: none;
+		border-radius: 2px;
+		padding: 20px 0;
+		text-transform: capitalize;
+
+		&:hover {
+			background-color: none;
+		}
+	}
+
+	&.google-btn {
+		width: 48%;
+		background-color: #425cf4;
+		color: white;
+		border: none;
+		border-radius: 2px;
+		padding: 20px 0;
+		text-transform: capitalize;
+
+		&:hover {
+			background-color: none;
+		}
+	}
 }

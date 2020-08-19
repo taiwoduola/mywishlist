@@ -1,0 +1,34 @@
+.like-main-nav {
+	display: flex;
+	justify-content: space-between;
+	height: 80px;
+	border-bottom: 1px solid #e6e7e8;
+	align-items: center;
+
+	.logo {
+		color: #53a318;
+		text-transform: capitalize;
+		font-size: 1.5rem;
+		font-weight: bolder;
+		letter-spacing: 1px;
+	}
+
+	.like-nav {
+		display: flex;
+		justify-content: space-between;
+
+		.like-navs {
+			padding-left: 20px;
+			text-transform: capitalize;
+			font-size: .9rem;
+			cursor: pointer;
+
+			.like-heart {
+				padding-right: 5px;
+				color: #707174;
+				font-size: 1.1rem;
+				align-items: center;
+			}
+		}
+	}
+}

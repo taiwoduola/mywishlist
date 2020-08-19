@@ -19,7 +19,7 @@ import CustomButton from '../custombutton/custombutton.component';
 const Navs = () => (
 	<div className="navigation">
 		<div className="small-nav">
-			<Link to="/" className="sub-nav">
+			<Link to="/wishlist" className="sub-nav">
 				<FontAwesomeIcon icon={faHeart} className="like-heart" />my likes
 			</Link>
 

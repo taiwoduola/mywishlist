@@ -7,9 +7,11 @@ import CardsContainer from '../../components/cardscontainer/cardscontainer.compo
 import PopularCollections from '../../components/popularcollections/collectioncontainer.component';
 import WhyUS from '../../components/whyus/whyus.component';
 import Deals from '../../components/deals/deals..component';
+import Navs from '../../components/navigation/nav.component';
 
 const Homepage = () => (
 	<div className="homepage">
+		<Navs />
 		<TrendsContainer />
 		<CardsContainer />
 		<PopularCollections />

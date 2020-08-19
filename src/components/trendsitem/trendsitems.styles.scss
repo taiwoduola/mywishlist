@@ -73,4 +73,10 @@
 			}
 		}
 	}
+
+	&:hover {
+		.image {
+			opacity: 0.9;
+		}
+	}
 }
