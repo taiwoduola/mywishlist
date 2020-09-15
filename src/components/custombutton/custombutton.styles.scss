@@ -1,101 +1,118 @@
 .custom-btn {
-	background: none;
-	border: 1px solid black;
-	padding: 12px 10px;
-	width: 60%;
-	border-radius: 10px;
-	font-size: 12px;
-	text-transform: capitalize;
-	cursor: pointer;
+  background: none;
+  border: 1px solid black;
+  padding: 12px 10px;
+  width: 60%;
+  border-radius: 10px;
+  font-size: 12px;
+  text-transform: capitalize;
+  cursor: pointer;
 
-	&:hover {
-		color: white;
-	}
+  &:hover {
+    color: white;
+  }
 
-	&.catergory-btn {
-		font-size: 14px;
-		width: 110px;
-		border: 1px solid #dde0e2;
-		border-radius: 10px;
-		text-align: center;
-		display: flex;
-		justify-content: space-between;
-		text-align: center;
-		height: 35px;
-		width: 110px;
-		align-items: center;
+  &.catergory-btn {
+    font-size: 14px;
+    width: 110px;
+    border: 1px solid #dde0e2;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 35px;
+    width: 110px;
+    align-items: center;
+    margin-bottom: 10px;
 
-		.cat-btn {
-			padding-left: 5px;
-		}
+    .cat-btn {
+      padding-left: 5px;
+    }
 
-		&:hover {
-			color: black;
-			border: 1px solid black;
-		}
-	}
+    &:hover {
+      color: black;
+      border: 1px solid black;
+    }
+  }
 
-	&.signin-btn {
-		font-size: 14px;
-		border: 1px solid #dde0e2;
-		border-radius: 10px;
-		text-align: center;
-		display: flex;
-		justify-content: space-between;
-		height: 35px;
-		width: 80px;
-		align-items: center;
+  &.signin-btn {
+    font-size: 14px;
+    border: 1px solid #dde0e2;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    height: 35px;
+    width: 80px;
+    align-items: center;
 
-		.sign-icon {
-			padding-left: 5px;
-		}
+    .sign-icon {
+      padding-left: 5px;
+    }
 
-		&:hover {
-			color: black;
-			border: 1px solid black;
-		}
-	}
+    &:hover {
+      color: black;
+      border: 1px solid black;
+    }
+  }
 
-	&.signin-button {
-		width: 100%;
-		background-color: #53a318;
-		color: white;
-		border: none;
-		font-size: 1.1rem;
-		padding: 12px 0;
-		border-radius: 5px;
-		margin-bottom: 20px;
+  &.signin-button {
+    width: 100%;
+    background-color: #53a318;
+    color: white;
+    border: none;
+    font-size: 1.1rem;
+    padding: 12px 0;
+    border-radius: 5px;
+    margin-bottom: 20px;
 
-		&:hover {
-			background-color: green;
-		}
-	}
+    &:hover {
+      background-color: green;
+    }
+  }
 
-	&.face-btn {
-		width: 48%;
-		background-color: #3b5998;
-		color: white;
-		border: none;
-		border-radius: 2px;
-		padding: 20px 0;
-		text-transform: capitalize;
+  &.signInForm-btn {
+    width: 100%;
+    background-color: none;
+    color: #0070cc;
+    border: 1px solid #0070cc;
+    font-size: 1rem;
+    padding: 10px 0;
+    border-radius: 5px;
+    margin-bottom: 10px;
 
-		&:hover {
-			background-color: none;
-		}
-	}
+    &:hover {
+      background-color: #0070cc;
+      color: white;
+    }
+  }
 
-	&.google-btn {
-		width: 48%;
-		background-color: #425cf4;
-		color: white;
-		border: none;
-		border-radius: 2px;
-		padding: 20px 0;
-		text-transform: capitalize;
+  &.face-btn {
+    width: 48%;
+    background-color: #3b5998;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 20px 0;
+    text-transform: capitalize;
 
-		&:hover {
-			background-color: none;
-		}
-	}
+    &:hover {
+      background-color: none;
+    }
+  }
+
+  &.google-btn {
+    width: 48%;
+    background-color: #425cf4;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 20px 0;
+    text-transform: capitalize;
+
+    &:hover {
+      background-color: none;
+    }
+  }
 }

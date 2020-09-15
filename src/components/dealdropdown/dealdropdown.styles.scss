@@ -1,0 +1,27 @@
+.all-menu {
+	.deal {
+		display: flex;
+
+		.deal-title {
+			width: 20%;
+
+			.deal-name {
+				text-transform: capitalize;
+				display: flex;
+				justify-content: space-between;
+				padding: 10px 10px 10px 20px;
+
+				.angleright {
+					margin-right: 10px;
+					font-size: 1.5rem;
+				}
+			}
+		}
+
+		&:hover {
+			.deal-menu {
+				display: block;
+			}
+		}
+	}
+}

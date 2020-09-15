@@ -1,0 +1,32 @@
+.all-menu {
+	.local {
+		display: flex;
+
+		.local-title {
+			width: 20%;
+
+			.local-name {
+				text-transform: capitalize;
+				display: flex;
+				justify-content: space-between;
+				padding: 10px 10px 10px 20px;
+
+				.angleright {
+					margin-right: 10px;
+					font-size: 1.5rem;
+				}
+			}
+		}
+
+		&:hover {
+			.local-menu {
+				display: block;
+			}
+		}
+	}
+	&.open {
+		.local-menu {
+			display: block;
+		}
+	}
+}

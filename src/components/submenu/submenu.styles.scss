@@ -1,0 +1,48 @@
+.local-menu {
+	display: none;
+	.local-header {
+		display: flex;
+		width: 60%;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 20px;
+
+		h2 {
+			text-transform: capitalize;
+		}
+	}
+
+	.local-submenu {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 20px 60px;
+		font-size: .9rem;
+	}
+}
+
+.deal-menu {
+	display: none;
+	.deal-header {
+		display: flex;
+		width: 40%;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 20px;
+
+		h2 {
+			text-transform: capitalize;
+		}
+	}
+
+	.deal-submenu {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		gap: 20px 60px;
+		font-size: .9rem;
+	}
+}
+
+.submenu {
+	position: absolute;
+	top: 0;
+}

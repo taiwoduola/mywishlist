@@ -1,0 +1,63 @@
+.sign-inForm {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid #d5d8db;
+  padding-left: 20px;
+  font-size: 0.9rem;
+
+  .loggin-status {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+
+    input[type="checkbox"] {
+      margin-left: 130px;
+      align-items: center;
+    }
+
+    .forgot-password {
+      color: #0070cc;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  input[type="email"] {
+    padding: 10px 5px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  input[type="password"] {
+    padding: 10px 5px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .social-btns {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .or {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  label {
+    display: block;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+  }
+
+  .signin-input:focus {
+    border: none;
+  }
+}

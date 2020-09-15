@@ -1,0 +1,15 @@
+.sidebars {
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+
+  p {
+    text-transform: capitalize;
+    cursor: pointer;
+    padding-top: 10px;
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

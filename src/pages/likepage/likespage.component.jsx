@@ -21,9 +21,10 @@ class LikesPage extends React.Component {
 		this.setState({ userStatus: true });
 	};
 
-	handleLogoutClick = () => {
+	handleLogoutClick = (e) => {
 		this.setState({ userStatus: false });
 	};
+
 	render() {
 		const { userStatus } = this.state;
 		return (
